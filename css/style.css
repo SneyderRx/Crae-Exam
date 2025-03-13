@@ -1,0 +1,145 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-3);
+    color: var(--color-1);
+    font-family: "RobotoCondensed-Regular";
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+/***************** Nav *******************/
+.bar__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 138px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -40px;
+    gap: 5px;
+    background-color: var(--color-1);
+    width: 298px;
+    height: 96px;
+    border-radius: 48px;
+}
+.logo h4{
+    font-size: 48px;
+    color: var(--color-2);
+}
+.logo img{
+    width: 46px;
+    height: 45px;
+    object-fit: cover;
+}
+.menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 60dvw;
+    height: 96px;
+    border-bottom: solid 2px var(--color-7);
+}
+.menu li{
+    list-style: none;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+.menu li:first-child{
+    border-bottom: solid 1px var(--color-1);
+}
+.menu li a{
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    align-items: flex-end;
+    height: 96px;
+    gap: 28px;
+    margin-right: 37px;
+}
+/*********************************************/
+/************** Title ***********************/
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 31px 21px 56px 100px;
+}
+.title__log {
+    display: flex;
+    flex-direction: column;
+}
+.title__log img {
+    width: 707px;
+    /* height: 391px; */
+    object-fit: contain;
+    padding-bottom: 26px;
+}
+.title__log h5 {
+    font-size: 56.4px;
+    padding-bottom: 13px;
+}
+.title__log p {
+    font-size: 26px;
+}
+.title___img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title___img > img {
+    width: 405.12px;
+    height: 432.07px;
+    object-fit: cover;
+}
+.title__icons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -147px;
+    gap: 10px;
+}
+/*********************************************/
+/************ Contain 1 **********************/
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 76.4dvw;
+    margin: 0 auto;
+}
+.game__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 41px;
+}
+.game__title h2 {
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+}
+.game__title p {
+    font-size: 36px;
+    text-align: center;
+    width: 50%;
+}
+.game__rules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
