@@ -127,6 +127,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 41px;
+    margin-bottom: 40px;
 }
 .game__title h2 {
     font-family: "RobotoCondensed-Bold";
@@ -140,6 +141,22 @@ main{
 .game__rules {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
-
+.game__rules span{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--color-2);
+}
+.game__rules span > img {
+    position: relative;
+    object-fit: contain;
+}
+.game__rules p {
+    font-size: 28px;
+    width: 70%;
+}
